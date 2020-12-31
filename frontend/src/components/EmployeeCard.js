@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import '../styles.css'
-import Modal from "react-bootstrap/Modal";
 import { EmployeePopUp } from './EmployeePopUp';
 
 

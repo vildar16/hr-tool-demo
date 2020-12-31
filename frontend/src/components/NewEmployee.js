@@ -10,7 +10,7 @@ export const NewEmployee = ({ getData }) => {
 
     const [{ok, msg}, setValidation] = useState({ok: true, msg: ''})
 
-    const [{hiredate}, setDate] = useState({date: new Date})
+    const [{hiredate}, setDate] = useState({date: new Date()})
     
 
     const [ {idNumber, name, lastname,

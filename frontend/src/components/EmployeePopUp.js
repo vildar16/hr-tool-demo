@@ -3,7 +3,6 @@ import React, { useState } from 'react'
 import Modal from "react-bootstrap/Modal";
 import { useForm } from '../hooks/useForm';
 import { format } from 'timeago.js'
-import DatePicker from 'react-datepicker'
 import 'react-datepicker/dist/react-datepicker.css'
 
 export const EmployeePopUp = ({ employee, isOpen, hide, getData }) => {
